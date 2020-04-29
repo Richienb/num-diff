@@ -2,7 +2,7 @@
 
 const assertNumber = input => {
 	if (typeof input !== "number") {
-		throw new TypeError(`Expected a string, got ${typeof input}`)
+		throw new TypeError(`Expected a number, got ${typeof input}`)
 	}
 }
 
