@@ -1,8 +1,8 @@
 {
-	"name": "the-module",
+	"name": "num-diff",
 	"version": "0.0.0",
-	"description": "My awesome module.",
-	"repository": "https://github.com/Richienb/the-module.git",
+	"description": "Find the difference between 2 numbers.",
+	"repository": "https://github.com/Richienb/num-diff.git",
 	"author": "Richie Bendall <richiebendall@gmail.com>",
 	"license": "MIT",
 	"main": "index.js",
@@ -17,12 +17,18 @@
 		"lint": "xo",
 		"test": "xo && ava"
 	},
-	"keywords": [],
+	"keywords": [
+		"number",
+		"difference",
+		"diff",
+		"subtract",
+		"math"
+	],
 	"dependencies": {},
 	"devDependencies": {
-		"ava": "^3.7.0",
+		"ava": "^3.8.1",
 		"eslint-config-richienb": "^0.4.2",
-		"xo": "^0.29.1"
+		"xo": "^0.30.0"
 	},
 	"resolutions": {
 		"eslint": "^6.8.0"

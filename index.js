@@ -1,9 +1,14 @@
 "use strict"
 
-module.exports = (input, { postfix = "rainbows" } = {}) => {
-	if (typeof input !== "string") {
+const assertNumber = input => {
+	if (typeof input !== "number") {
 		throw new TypeError(`Expected a string, got ${typeof input}`)
 	}
+}
 
-	return `${input} & ${postfix}`
+module.exports = (a, b) => {
+	assertNumber(a)
+	assertNumber(b)
+
+	return Math.abs(a - b)
 }

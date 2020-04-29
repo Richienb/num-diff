@@ -1,41 +1,24 @@
-# the-module [![Travis CI Build Status](https://img.shields.io/travis/com/Richienb/the-module/master.svg?style=for-the-badge)](https://travis-ci.com/Richienb/the-module)
+# num-diff [![Travis CI Build Status](https://img.shields.io/travis/com/Richienb/num-diff/master.svg?style=for-the-badge)](https://travis-ci.com/Richienb/num-diff)
 
-My awesome module.
+Find the difference between 2 numbers.
 
-[![NPM Badge](https://nodei.co/npm/the-module.png)](https://npmjs.com/package/the-module)
+[![NPM Badge](https://nodei.co/npm/num-diff.png)](https://npmjs.com/package/num-diff)
 
 ## Install
 
 ```sh
-npm install the-module
+npm install num-diff
 ```
 
 ## Usage
 
 ```js
-const theModule = require("the-module");
+const numberDiff = require("num-diff");
 
-theModule("unicorns");
-//=> 'unicorns & rainbows'
+numberDiff(2, 5);
+//=> 3
 ```
 
 ## API
 
-### theModule(input, options?)
-
-#### input
-
-Type: `string`
-
-Lorem ipsum.
-
-#### options
-
-Type: `object`
-
-##### postfix
-
-Type: `string`\
-Default: `rainbows`
-
-Lorem ipsum.
+### numberDiff(a, b)

@@ -1,15 +1,13 @@
 /**
-My awesome module.
-@param input Lorem ipsum.
-@param postfix Lorem ipsum.
+Find the difference between 2 numbers.
 @example
 ```
-const theModule = require("the-module");
+const numberDiff = require("num-diff");
 
-theModule("unicorns");
-//=> 'unicorns & rainbows'
+numberDiff(2, 5);
+//=> 3
 ```
 */
-declare function theModule(input: string, { postfix }: { postfix?: string }): string
+declare function numberDiff(a: number, b: number): number
 
-export = theModule
+export = numberDiff
