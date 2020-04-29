@@ -1,6 +1,6 @@
 {
 	"name": "num-diff",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"description": "Find the difference between 2 numbers.",
 	"repository": "https://github.com/Richienb/num-diff.git",
 	"author": "Richie Bendall <richiebendall@gmail.com>",
